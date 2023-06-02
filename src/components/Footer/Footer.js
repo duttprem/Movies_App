@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>@Created by Prem Dutt</h2>
+      <h4>@Created by Prem Dutt</h4>
     </div>
   );
 };
