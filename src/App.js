@@ -1,12 +1,17 @@
-import './App.css';
+import React from 'react'
+import Home from "./components/Home/Home"
+import Moviescard from './components/MoviesCard/MoviesCard'
+import Footer from './components/Footer/Footer'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hellow</h1>
-      <h2>hl</h2>
-    </div>
-  );
+    <div className='App'>
+      <Home />
+      <Moviescard />
+      <Footer />
+      </div>
+  )
 }
 
-export default App;
+export default App
